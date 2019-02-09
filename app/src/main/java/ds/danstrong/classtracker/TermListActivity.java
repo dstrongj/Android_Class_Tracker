@@ -92,7 +92,7 @@ public class TermListActivity extends AppCompatActivity implements LoaderManager
         Uri term6Uri = DataManager.insertTerm(this, "Fall 2021", "2021-07-01", "2021-12-31", 0);
 
         Uri course1Uri = DataManager.insertCourse(this, Long.parseLong(term1Uri.getLastPathSegment()),
-                "C196: Mobile Application Development", "2019-01-01", "2019-03-01",
+                "C196: Mobile Application Development", "2019-01-01", "2019-02-28",
                 "Course Mentor Group", "(888) 888-8888", "cmprogramming@wgu.edu",
                 CourseStatus.IN_PROGRESS);
 
@@ -125,7 +125,7 @@ public class TermListActivity extends AppCompatActivity implements LoaderManager
                         "This application will use a SQLite database.", "2019-02-18 12:30 PM");
 
         Uri ass2Uri = DataManager.insertAssessment(this, Long.parseLong(course1Uri.getLastPathSegment()), "GRN2", "Second Assessment",
-                "Assessment Description",  "2018-10-01 10:30 AM");
+                "Assessment Description",  "2019-02-18 11:30 AM");
 
         DataManager.insertAssessmentNote(this, Long.parseLong(ass1Uri.getLastPathSegment()),
                 "Assessment #1 Note #1");
