@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "25.0.3"
+    //buildToolsVersion "25.0.3"
     defaultConfig {
         applicationId "ds.danstrong.classtracker"
-        minSdkVersion 24
+        minSdkVersion 14
         targetSdkVersion 28
         versionCode 1
 

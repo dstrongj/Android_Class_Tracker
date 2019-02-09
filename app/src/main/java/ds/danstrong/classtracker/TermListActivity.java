@@ -98,12 +98,12 @@ public class TermListActivity extends AppCompatActivity implements LoaderManager
 
         DataManager.insertCourse(this, Long.parseLong(term1Uri.getLastPathSegment()),
                 "C193: Client-Server Application Development", "2019-03-01", "2019-04-30",
-                "Course Mentor Group", " ", "cmprogramming@wgu.edu",
+                "Course Mentor Group", "(888) 888-8888 ", "cmprogramming@wgu.edu",
                 CourseStatus.PLANNED);
 
         DataManager.insertCourse(this, Long.parseLong(term1Uri.getLastPathSegment()),
-                "C195: Software II - Advanced Java Concepts", "2019-05-01", "2019-06-30",
-                "Course Mentor Group", "", "cmprogramming@wgu.edu",
+                "C195: Software I - Java Concepts", "2019-05-01", "2019-06-30",
+                "Course Mentor Group", "(888) 888-8888", "cmprogramming@wgu.edu",
                 CourseStatus.PLANNED);
 
         DataManager.insertCourseNote(this, Long.parseLong(course1Uri.getLastPathSegment()),
@@ -122,9 +122,9 @@ public class TermListActivity extends AppCompatActivity implements LoaderManager
                         "assessment(s) associated with each course. The application will allow students to enter, edit, " +
                         "and delete term, course, and assessment data. It should provide summary and detailed views of " +
                         "courses for each term and provide alerts for upcoming performance and objective assessments. " +
-                        "This application will use a SQLite database.", "2018-02-18 12:30 PM");
+                        "This application will use a SQLite database.", "2019-02-18 12:30 PM");
 
-        Uri ass2Uri = DataManager.insertAssessment(this, Long.parseLong(course1Uri.getLastPathSegment()), "GRN23", "Second Assessment",
+        Uri ass2Uri = DataManager.insertAssessment(this, Long.parseLong(course1Uri.getLastPathSegment()), "GRN2", "Second Assessment",
                 "Assessment Description",  "2018-10-01 10:30 AM");
 
         DataManager.insertAssessmentNote(this, Long.parseLong(ass1Uri.getLastPathSegment()),

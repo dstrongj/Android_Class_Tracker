@@ -22,28 +22,15 @@
     <string name="edit_term_title">Edit Term</string>
     <string name="term_saved">Term Saved</string>
     <string name="term_updated">Term Updated</string>
-    <string name="long_test_note">Designing Effective Navigation\n\n
-        Get started\n\n
-        Dependencies and prerequisites\n\n
-        This class is not specific to any particular version of the Android platform. It is also primarily design-focused and does not require knowledge of the Android SDK. That said, you should have experience using an Android device for a better understanding of the context in which Android applications run.\n\n
+    <string name="long_test_note">Course Material Notes\n\n
+        For step-by-step instructions on how to build an Android app, complete the following Lynda.com course. \n\n
+        It is about 5 hours and 20 minutes to view the material, longer to complete the associated activities. \n\n
+        During the course you will set up a development environment, prepare virtual and physical devices for testing, \n\n
+        and have the opportunity to create a shopping app for a fictional sportswear company. \n\n
 
-        You should also have basic familiarity with the Action Bar (pattern docs at Android Design), used across most applications in devices running Android 3.0 and later.\n\n
-
-        One of the very first steps to designing and developing an Android application is to determine what users are able to see and do with the app. Once you know what kinds of data users are interacting with in the app, the next step is to design the interactions that allow users to navigate across, into, and back out from the different pieces of content within the app.\n\n
-
-        This class shows you how to plan out the high-level screen hierarchy for your application and then choose appropriate forms of navigation to allow users to effectively and intuitively traverse your content. Each lesson covers various stages in the interaction design process for navigation in Android applications, in roughly chronological order. After going through the lessons in this class, you should be able to apply the methodology and navigation paradigms outlined here to your own applications, providing a coherent navigation experience for your users.\n\n
-
-        Lessons\n\n
-        Planning Screens and Their Relationships\n\n
-        Learn how to choose which screens your application should contain. Also learn how to choose which screens should be directly reachable from others. This lesson introduces a hypothetical news application to serve as an example for later lessons.\n\n
-        Planning for Multiple Touchscreen Sizes\n\n
-        Learn how to group related screens together on larger-screen devices to optimize use of available screen space.\n\n
-        Providing Descendant and Lateral Navigation\n\n
-        Learn about techniques for allowing users to navigate deep into, as well as across, your content hierarchy. Also learn about pros and cons of, and best practices for, specific navigational UI elements for various situations.\n\n
-        Providing Ancestral and Temporal Navigation\n\n
-        Learn how to allow users to navigate upwards in the content hierarchy. Also learn about best practices for the Back button and temporal navigation, or navigation to previous screens that may not be hierarchically related.\n\n
-        Putting it All Together: Wireframing the Example App\n\n
-        Learn how to create screen wireframes (low-fidelity graphic mockups) representing the screens in a news application based on the desired information model. These wireframes utilize navigational elements discussed in previous lessons to demonstrate intuitive and efficient navigation.</string>
+        When you have finished this course, complete the 2.5 hour Lynda.com course specific to building \n\n
+        a note-taking app. Here you will learn to customize  design themes and create a data management \n\n
+        layer allowing you to create, read, update, and delete notes. \n\n </string>
     <string name="all_terms_deleted">All terms have been deleted</string>
     <string name="confirm_delete_all_terms">Confirm all term deletion</string>
     <string name="test_alarm">Test alarm has been set for 5 seconds from now</string>
@@ -66,12 +53,12 @@
     <string name="course_mentor_phone">Course Mentor Phone:</string>
     <string name="course_mentor_email">Course Mentor Email:</string>
     <string name="save_course">Save Course</string>
-    <string name="courses">Courses</string>
+    <string name="courses">Active Course</string>
     <string name="enter_new_note">Enter New Note</string>
     <string name="edit_note">Edit Note</string>
     <string name="note_text_hint">Enter note text here...</string>
     <string name="save_note">Save Note</string>
-    <string name="view_course_note">View Course Note</string>
+    <string name="view_course_note">Course Note</string>
     <string name="view_images">View Images</string>
     <string name="add_image">Add Image</string>
     <string name="add_picture_from_camera">Add picture from camera</string>
@@ -88,11 +75,11 @@
     <string name="view_assessment_note">View Assessment Note</string>
     <string name="current_term">Current Term</string>
     <string name="view_all_terms">View All Terms</string>
-    <string name="term_list">Term List</string>
+    <string name="term_list">Detailed Term List</string>
     <string name="term_viewer">Term Viewer</string>
     <string name="term_editor">Term Editor</string>
     <string name="course_list">Course List</string>
-    <string name="course_viewer">Course Viewer</string>
+    <string name="course_viewer">Detailed Course Viewer</string>
     <string name="course_editor">Course Editor</string>
     <string name="course_note_list">Course Note List</string>
     <string name="assessment_list">Assessment List</string>
