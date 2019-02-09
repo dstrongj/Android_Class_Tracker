@@ -6,13 +6,13 @@
     <string name="end_date">End Date: </string>
     <string name="classes">Classes</string>
     <string name="view_term">View Term</string>
-    <string name="create_sample_data">Create sample data</string>
+    <string name="create_sample_data">Create sample terms</string>
     <string name="create_test_alarm">Create test alarm</string>
     <string name="delete_all_terms">Delete all terms</string>
     <string name="mark_term_active">Mark term active</string>
     <string name="edit_term">Edit term</string>
     <string name="delete_term">Delete term</string>
-    <string name="term_marked_active">This term has been marked as active</string>
+    <string name="term_marked_active">Term marked active</string>
     <string name="term_deleted">Term deleted</string>
     <string name="need_to_remove_courses">Remove all courses before deleting the term</string>
     <string name="confirm_delete_term">Confirm term deletion</string>
@@ -96,5 +96,4 @@
     <string name="name">Name</string>
     <string name="date_time"><![CDATA[Date & Time]]></string>
     <string name="description">Description</string>
-    <string name="title_activity_image_viewer">ImageViewerActivity</string>
 </resources>
